@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto grupal</title>
+    <script src="C3 PROYECTO.js"></script>
+    <link rel="stylesheet" href="C3 PROYECTO.css">
+</head>
+<body>
+    <form action="" method="get" id="miformulario"> 
+        <div id="cuadro">    
+            <p><label for="Datos" ><h1 id="datos">Datos</h1>
+            </label></p>
+            <hr>
+
+            <p><label for="Nombre" class="dato">Nombre</label> 
+                <input type="text" id="Nombre"  name="Nombre" required maxlength="20" minlength="2"></p>
+            
+        
+            <p><label for="Apellido" class="dato">Apellido</label>
+                <input type="text" id="Apellido" name="Apellido" required maxlength="25" minlength="2"></p>
+        
+            <p><label for="Edad" class="dato">Edad</label>
+                <input type="number" id="Edad" name="Edad" min="18" max="120" minlength="2" required ></p>
+        
+            <p><label for="DNI" class="dato">DNI</label>
+                <input type="number" id="DNI" name="DNI" required minlength="6"></p>
+        
+            <p><label for="email" class="dato">Correo electronico</label>
+                <input type="email" id="email" name="email" required></p>
+
+            <br>
+            <button type="submit" id="Cargar" value="Cargar" onclick="validarFormulario(event)">Cargar</button> 
+        </div>
+        </form>
+
+    <table id="table">
+        <caption>
+            <h1 id="tabla">Tabla</h1>
+        </caption>
+        <thead id="tr">
+        <tr>
+            <th>&emsp;&emsp; Nombre &emsp;&emsp;</th>
+            <th>&emsp;&emsp; Apellido &emsp;&emsp;</th>
+            <th>&emsp;&emsp; Edad &emsp;&emsp;</th>
+            <th>&emsp;&emsp; Dni &emsp;&emsp;</th>
+            <th>&emsp;&emsp; Correo Electronico &emsp;&emsp;</th>
+        </tr>
+        </thead>
+        <tbody id="td">
+            <tr>
+            </tr>
+        </tbody>
+    </table>
+    <div id="autores">
+        <h1><a href= "C3 PROYECTO AUTORES.html" target = "_blank"><ins>Autores</ins></a></h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+body{background: linear-gradient(90deg, rgb(228, 86, 86),black);}
+
+#miformulario {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto 2%;
+    margin-top: 3%;
+    padding: 40px 20px 70px;
+    border-radius: 2%;
+    font-family: cursive ;
+    box-shadow: 10px 10px 10px 10px rgba(8, 8, 8, 0.3);
+}
+
+#cuadro{
+    margin: -7% 5% -5%;
+}
+
+#datos{
+    text-align: center;
+}
+
+#Cargar{
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color: rgb(88, 15, 15);
+    padding: 3% 30%;
+    font-size: 16pt;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+#table{
+    margin: 2% auto;
+}
+
+#tabla{
+    color: white;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tr{
+    background-color: black;
+    color:white;
+    font-size: x-large;
+    height: 50px;
+    width: 50px;
+    margin-left: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#td{
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 50px;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+#Nombre{
+    margin-left: 55%;
+    border-top: 2px ;
+    border-left: 2px;
+    border-right: 2px;
+    padding-top: 5px;
+    text-transform: capitalize;
+}
+#Apellido{
+    margin-left: 55%;
+    border-top: 2px ;
+    border-left: 2px;
+    border-right: 2px;
+    padding-top: 5px;
+    text-transform: capitalize;
+}
+#Edad{
+    margin-left: 55%;
+    padding: 0px 105px 0px 0px;
+    border-top: 2px ;
+    border-left: 2px;
+    border-right: 2px;
+    padding-top: 5px;
+    text-align: center;
+}
+#DNI{
+    margin-left: 55%;
+    border-top: 2px ;
+    border-left: 2px;
+    border-right: 2px;
+    padding-top: 5px;
+}
+#email{
+    margin-left: 55%;
+    margin-top: -100%;
+    border-top: 2px ;
+    border-left: 2px;
+    border-right: 2px;
+    padding-top: 5px;
+}
+
+.dato{
+    margin: 7%;
+    color: rgb(117, 116, 116);
+}
+
+#autores{
+    text-align: center;
+}
